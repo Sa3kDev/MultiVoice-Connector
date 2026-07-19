@@ -19,7 +19,7 @@ SUBBOT_SCRIPT = BASE_DIR / "subbot" / "bot_template.py"
 QUEUE_DIR.mkdir(exist_ok=True)
 STATUS_DIR.mkdir(exist_ok=True)
 
-MANAGER_TOKEN = "PUT_YOUR_MANAGER_BOT_TOKEN_HERE"
+MANAGER_TOKEN = ""
 
 
 def read_json_file(path: Path) -> dict:
